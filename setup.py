@@ -39,7 +39,7 @@ setup(
     version='0.0.1',
     author='Fabian Kochem',
     author_email='fkochem@gmail.com',
-    description='Redis Store for hug',
+    description='Redis Store extension for hug',
     url='https://github.com/vortec/hug_store_redis',
 
     # Dependencies
