@@ -1,0 +1,14 @@
+language: python
+python:
+    - "3.3"
+    - "3.4"
+    - "3.5"
+services:
+    - redis-server
+install:
+    - pip install .
+    - pip install coveralls pytest-cov
+script:
+    - make unit
+after_success:
+    - coveralls
