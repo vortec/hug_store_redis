@@ -6,7 +6,7 @@ python:
 services:
     - redis-server
 install:
-    - pip install .
+    - pip install -e .
     - pip install coveralls pytest-cov
 script:
     - make unit
