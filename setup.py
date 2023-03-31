@@ -45,7 +45,7 @@ setup(
     # Dependencies
     install_requires=[
         'hug',
-        'redis==2.10.5'
+        'redis==4.4.4'
     ],
     tests_require=[
         'pytest==2.9.0'
